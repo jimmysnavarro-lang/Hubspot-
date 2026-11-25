@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boceto B · HTML editable</title>
+</head>
+<body style="margin:0;padding:0;background:#EEF1E6;">
+<div style="display:none;max-height:0;overflow:hidden;opacity:0;">{{ contact.firstname }}, te esperamos el sábado 12 de diciembre en Geely Costa del Este. Desayuno, beneficios de posventa y un regalo navideño.</div>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#EEF1E6;">
+<tr><td align="center" style="padding:24px 12px;">
+
+  <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#FFFFFF;">
+    <!-- Header -->
+    <tr>
+      <td align="center" style="padding:20px 24px;">
+        <img src="img/logo-geely.jpg" width="100" alt="GEELY" style="display:block;border:0;width:100px;height:auto;">
+      </td>
+    </tr>
+
+    <!-- Título -->
+    <tr>
+      <td align="center" style="background:#DCE6C7;padding:36px 32px 8px;font-family:Arial,Helvetica,sans-serif;">
+        <div style="font-size:30px;line-height:36px;font-weight:bold;letter-spacing:4px;color:#111111;text-transform:uppercase;">Geely After<br>Sales Day</div>
+        <div style="width:48px;height:2px;background:#111111;margin:18px auto;font-size:0;line-height:0;">&nbsp;</div>
+        <div style="font-size:14px;line-height:20px;letter-spacing:3px;color:#111111;text-transform:uppercase;">Gracias por confiar en nosotros</div>
+      </td>
+    </tr>
+    <!-- Imagen -->
+    <tr>
+      <td style="background:#DCE6C7;padding:24px 0 0;">
+        <img src="img/hero-arbol-sucursal.jpg" width="600" alt="Sucursal Geely Costa del Este decorada para Navidad, con desayuno y regalos" style="display:block;border:0;width:100%;max-width:600px;height:auto;">
+      </td>
+    </tr>
+
+    <!-- Intro -->
+    <tr>
+      <td style="padding:32px 40px 8px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:26px;color:#1A1A1A;">
+        Hola <strong>{{ contact.firstname }}</strong>,<br><br>
+        Te invitamos a disfrutar de una mañana especial para agradecerte por ser parte de la <strong>familia Geely</strong>. Ven a compartir con nosotros, conoce los beneficios que preparamos para tu vehículo y llévate un regalo navideño.
+      </td>
+    </tr>
+
+    <!-- Detalles: 3 columnas -->
+    <tr>
+      <td style="padding:24px 28px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td width="33%" valign="top" align="center" style="padding:16px 6px;border:1px solid #E4E8DA;font-family:Arial,Helvetica,sans-serif;">
+              <div style="font-size:24px;line-height:28px;">📅</div>
+              <div style="font-size:11px;letter-spacing:2px;color:#777777;text-transform:uppercase;padding-top:6px;">Fecha</div>
+              <div style="font-size:15px;line-height:21px;font-weight:bold;color:#111111;padding-top:4px;">Sábado<br>12 de diciembre</div>
+            </td>
+            <td width="33%" valign="top" align="center" style="padding:16px 6px;border:1px solid #E4E8DA;border-left:0;font-family:Arial,Helvetica,sans-serif;">
+              <div style="font-size:24px;line-height:28px;">🕗</div>
+              <div style="font-size:11px;letter-spacing:2px;color:#777777;text-transform:uppercase;padding-top:6px;">Horario</div>
+              <div style="font-size:15px;line-height:21px;font-weight:bold;color:#111111;padding-top:4px;">8:00 a.m. a<br>1:00 p.m.</div>
+            </td>
+            <td width="33%" valign="top" align="center" style="padding:16px 6px;border:1px solid #E4E8DA;border-left:0;font-family:Arial,Helvetica,sans-serif;">
+              <div style="font-size:24px;line-height:28px;">📍</div>
+              <div style="font-size:11px;letter-spacing:2px;color:#777777;text-transform:uppercase;padding-top:6px;">Lugar</div>
+              <div style="font-size:15px;line-height:21px;font-weight:bold;color:#111111;padding-top:4px;">Geely<br>Costa del Este</div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- Beneficio -->
+    <tr>
+      <td style="padding:0 28px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#111111;">
+          <tr>
+            <td width="56" align="center" style="padding:18px 0 18px 16px;font-size:28px;line-height:28px;">🎁</td>
+            <td style="padding:18px 20px;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:21px;letter-spacing:1.5px;color:#FFFFFF;text-transform:uppercase;">
+              Beneficios exclusivos de posventa<br>y un regalo navideño
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- CTA -->
+    <tr>
+      <td align="center" style="padding:36px 32px 8px;">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+          <tr><td align="center" bgcolor="#111111" style="border-radius:4px;">
+            <a href="#" style="display:inline-block;padding:16px 36px;font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:bold;letter-spacing:2px;color:#FFFFFF;text-decoration:none;text-transform:uppercase;">Confirmar mi asistencia</a>
+          </td></tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding:6px 32px 36px;font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:20px;color:#666666;">
+        También puedes confirmar con tu asesor de servicio.<br>
+        <a href="#" style="color:#111111;font-weight:bold;">Agregar a mi calendario</a> &nbsp;·&nbsp; <a href="#" style="color:#111111;font-weight:bold;">Ver ubicación</a>
+      </td>
+    </tr>
+
+    <!-- Footer -->
+    <tr>
+      <td style="padding:20px 32px;background:#111111;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;color:#BBBBBB;" align="center">
+        <span style="letter-spacing:2px;color:#FFFFFF;">#GeelyMoments</span><br><br>
+        Geely Panamá · Bahia Motors · Costa del Este, Panamá<br>
+        <a href="#" style="color:#BBBBBB;">Darse de baja</a> · <a href="#" style="color:#BBBBBB;">Preferencias de correo</a>
+      </td>
+    </tr>
+  </table>
+
+</td></tr>
+</table>
+</body>
+</html>
